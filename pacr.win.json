@@ -1,0 +1,20 @@
+{
+    "platform": "windows32",
+    "jdk": "/home/rafael/.sdkman/candidates/java/7.0.211-zulu",
+    "executable": "myapp",
+    "classpath": [
+        "/home/rafael/maven_repo/com/fazecast/jSerialComm/2.5.0/jSerialComm-2.5.0.jar",
+        "target/serialsample-1.0-SNAPSHOT.jar"
+    ],
+    "mainclass": "szp.rafael.ss.SerialPacketReader",
+    "vmargs": [
+        "Xms64m",
+        "Xmx128m"
+    ],
+    "resources": [
+        "pom.xml",
+        "src/main/resources"
+    ],
+    "minimizejre": "soft",
+    "output": "out-win"
+}

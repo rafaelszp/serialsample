@@ -1,0 +1,7 @@
+out-*/
+target/
+*.iml
+.idea/
+*.zip
+*.tar.gz
+*.tar.*
